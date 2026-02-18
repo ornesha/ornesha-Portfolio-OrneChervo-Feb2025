@@ -158,7 +158,7 @@ const projectsData = {
     },
     "libro": { 
         title: "El viaje de Totoro",
-        desc: "Reinterpretación del libro Buscando a Wally basada en estudio Ghibli, utilizando únicamente Inteligencia Artificial. La historia sigue al personaje Totoro que viaja por las distintas dimensiones de las películas de Studio Ghibli en busca de regresar a su hogar, y en cada página hayq ue encontrar al Totoro que aparece en la esquina inferior como referencia.",
+        desc: "Reinterpretación del libro Buscando a Wally basada en estudio Ghibli, utilizando únicamente Inteligencia Artificial. La historia sigue al personaje Totoro que viaja por las distintas dimensiones de las películas de Studio Ghibli en busca de regresar a su hogar, y en cada página hay que encontrar al Totoro que aparece en la esquina inferior como referencia.",
         tags: "#FanArt #StudioGhibli #BuscandoAWally #InteligenciaArtificial #Gemini",
         gallery: [
             { type: 'image', src: 'assets/totoro1.jpg' },
