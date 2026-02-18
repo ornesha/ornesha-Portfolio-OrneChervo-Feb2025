@@ -232,11 +232,17 @@ function renderCollage(data) {
                 mediaEl = document.createElement('video');
                 mediaEl.src = item.src;
             } else if (item.type === 'youtube') {
+             
                 mediaEl = document.createElement('iframe');
                 mediaEl.src = item.src;
                 mediaEl.style.border = "none";
-                mediaEl.style.aspectRatio = "16/9"; 
-                mediaEl.style.pointerEvents = "none"; 
+                mediaEl.style.aspectRatio = "16/9";
+                mediaEl.style.width = "100%";
+                
+                mediaEl.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                mediaEl.allowFullscreen = true; 
+
+    
             } else {
                 mediaEl = document.createElement('img');
                 mediaEl.src = item.src;
